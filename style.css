@@ -26,6 +26,7 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+    transition: all 0.3s;
 }
 
 nav a:hover {
@@ -37,6 +38,7 @@ nav a:hover {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
+    transition: all 0.3s;
 }
 
 .produtos li{
@@ -101,15 +103,52 @@ form {
     margin: 40px 0;
 }
 
-form label {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-form input {
+.input-padrao {
     display: block;
     margin-bottom: 20px;
     padding: 10px 25px;
     width: 50%;
+}
+
+.checkbox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.enviar:hover{
+    background-color: darkorange;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px; 
 }
